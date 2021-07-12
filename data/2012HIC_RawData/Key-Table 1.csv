@@ -1,0 +1,68 @@
+Raw 2012 Housing Inventory Count Data,,,,
+Guide to Dataset,,,,
+,,,,
+"Total number of rows: 23,193",,,,
+,,,,
+"For additional information on data definitions, please visit HUDHRE.info",,,,
+Guidance on the 2012 HIC can be found here: http://www.hudhre.info/2012PIT/,,,,
+,,,,
+Description of variables in dataset,,,,
+Variable Name,Type,Description,Values,
+RowID,Num,Unique ID for each entry,,
+State,Char,State abbreviation for program,,
+CoC Name,Char,Full CoC Name,,
+CoC ID,Num,CoC ID number,,
+HUD CoC Number,Char,Six character HUD CoC Identifier,,
+Year,Num,HIC Reporting Year,,
+Organization Name,Char,Name of Organization,,
+Program Name,Char,Name of Program,,
+Program Type,Char,Program Type,"ES = Emergency Shelter
+HPRP = Homelessness Prevention 
+        and Rapid ReHousing
+PSH = Permanent Supportive
+        Housing
+SH = Safe Haven
+TH = Transitional Housing",
+Bed Type,Char,Bed Type,"F = Facility-Based
+V = Voucher-Based
+O = Other",
+Geo Code,Char,6 digit geocode,,
+Inventory Type,Char,Inventory Type,"C = Current Inventory
+N = New Inventory
+U = Under Development",
+Target Population A,Char,"Target Population - 
+Household Type","CO = Couples only
+HC = Households (HH) with children
+SF = Single female
+SFHC = Single female + HH with children
+SM = Single male
+SMF = Single male or female
+SMF + HC = Single male or female + HH with children
+SMHC = Single male + HH with children
+YF = Youth female
+YM = Youth male
+YMF = Youth male or female",
+Target Population B,Char,Target Population - Subpopulation,"DV = Domestic violence
+HIV = HIV/Persons with AIDS
+NA = Not applicable
+VET = Veteran",
+Mc Kinney-Vento,Char,Is the program McKinney Vento funded?,"FALSE
+TRUE",
+Beds for Households With Children,Num,Total year-round beds for households with children,,
+Units for Households With Children,Num,Total units for households with children,,
+Beds for Households Without Children,Num,Total year-round beds for households without children,,
+Beds for Households With Only Children,Num,Total year-round beds for households with only children,,
+Total Year Round Beds,Num,Total Year-Round Beds,,
+Chronically Homeless Beds,Num,Beds designated for serving chronically homeless individuals,,
+HMIS Beds for Households With Children,Num,Total year-round HMIS beds for households with children,,
+HMIS Beds for Households Without Children,Num,Total year-round HMIS beds for households without children,,
+HMIS Beds for Households With Only Children,Num,Total year-round HMIS beds for households with only children,,
+Domestic Violence Beds,Num,Total beds dedicated to service domestic violence victims. DV Beds are excluded from calculations of HMIS bed coverage rates.,,
+Total Seasonal Beds,Num,Total number of seasonal beds,,
+Seasonal Beds Available in HMIS,Num,Total number of HMIS seasonal beds,,
+Availability Start Date,Num,Availability start date for seasonal beds,,
+Availability End Date,Num,Availability end date for seasonal beds,,
+Overflow and Voucher Beds,Num,Total number of overflow and voucher beds,,
+HMIS Overflow and Voucher Beds,Num,Total number of HMIS overflow and voucher beds,,
+PIT Count,Num,Number of persons reported staying in the program on the night of the CoC's point-in-time count,,
+Total Beds,Num,"Total current or new year-round beds, seasonal beds, and overflow/voucher beds. Equals zero if inventory type is under development.",,
