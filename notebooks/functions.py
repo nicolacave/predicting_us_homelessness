@@ -12,13 +12,17 @@ class homeless():
 
     def format_df(self):
         self.df['year'] = self.year
+        self.df['state'] = self.df['CoC Number'].str.extract('([A-Z]\w{0,})', expand=True)
         self.df.replace(',','', regex=True, inplace=True)
-        self.df.iloc[:,7] = self.df.iloc[:,7].astype(float)
-        self.df.iloc[:,2] = self.df.iloc[:,2].astype(float)
-        self.df['unsheltered rate'] = (self.df.iloc[:,7] / self.df.iloc[:,2])
-        #df = self.df.loc[:, ['year', 'CoC Number', 'CoC Name', 'unsheltered rate']]
+        self.df['Unsheltered Homeless'] = self.df['Unsheltered Homeless'].astype(float)
+        self.df['Overall Homeless'] = self.df['Overall Homeless'].astype(float)
+        self.df['unsheltered rate'] = (self.df['Unsheltered Homeless'] / self.df['Overall Homeless'])
         return self.df 
 
     def strip_columns(self, col_names):
-        self.df = self.df[col_names]
+        for column in self.df.columns:
+            if column not in col_names:
+                self.df.drop(column, axis=1, inplace=True)
+            else:
+                continue
         return self.df
