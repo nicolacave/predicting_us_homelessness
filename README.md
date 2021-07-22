@@ -26,25 +26,25 @@ Key Homeless Shelter information in the HIC include: <br>
 ## Exploratory Data Analysis
 ![2020 counts](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/2020_counts.png)
 ## Modeling
-Model(s) used: Multiple Linear Regression <br>
+Model used: Multiple Linear Regression <br>
 __Process:__ <br>
 Feature Engineering > Model Training > Model Testing > Hyperparameter Tuning > Kfold Cross Validation(5)
 ## Results
 __What can we learn from the model?__
 R^2 on training data: 0.575 <br>
-R^2 on testing data:  0.399 <br>
-This model is insufficient! <br> <br>
-Cross validation verifies this. <br>
-mean fold score: -1.11e+17
+R^2 on testing data:  0.399 <br> <br>
+__This model is insufficient!__ <br> <br>
+__Cross validation verifies this.__ <br>
+mean fold score: -1.11e+17 <br>
 ![feature importances](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/feature_importances.png)
 ## Discussion
-__How can this model be improved?__
+__How can this model be improved?__<br>
 Further studies: <br>
-Collect more robust demographic data <br>
-Improve feature engineering <br>
-Expand targets <br>
-Add classifiers <br>
-__More data!__ <br>
+* Collect more robust demographic data 
+* Improve feature engineering 
+* Expand targets 
+* Add classifiers 
+* __More data!__ <br> <br>
 __Ideal Use Case:__ <br>
 Provide insight to county-wise HUD sectors to inform funding for  homeless shelters
 
