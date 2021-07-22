@@ -44,7 +44,7 @@ Further studies: <br>
 * Improve feature engineering 
 * Expand targets 
 * Add classifiers 
-__More data!__ <br>
+* __More data!__ <br> <br>
 __Ideal Use Case:__ <br>
 Provide insight to county-wise HUD sectors to inform funding for  homeless shelters
 
