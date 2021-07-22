@@ -36,7 +36,8 @@ R^2 on testing data:  0.399 <br> <br>
 __This model is insufficient!__ <br> <br>
 __Cross validation verifies this.__ <br>
 mean fold score: -1.11e+17 <br>
-![feature importances](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/feature_importances.png)
+![feature importances](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/key_feature_importances.png) <br>
+__The most important predictors of homelessness are: Gender Identity, Race/Ethnicity, Age Group (significantly less)__
 ## Discussion
 __How can this model be improved?__<br>
 Further studies: <br>
