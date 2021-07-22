@@ -24,7 +24,7 @@ Key Homeless Shelter information in the HIC include: <br>
 * Type of shelter
 * Number of available beds
 ## Exploratory Data Analysis
-![image](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/2020_counts.png)
+![2020 counts](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/2020_counts.png)
 ## Modeling
 Model(s) used: Multiple Linear Regression <br>
 __Process:__ <br>
@@ -36,7 +36,7 @@ R^2 on testing data:  0.399 <br>
 This model is insufficient! <br> <br>
 Cross validation verifies this. <br>
 mean fold score: -1.11e+17
-![image](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/feature_importances.png)
+![feature importances](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/feature_importances.png)
 ## Discussion
 __How can this model be improved?__
 Further studies: <br>
