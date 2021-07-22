@@ -34,9 +34,19 @@ __What can we learn from the model?__
 R^2 on training data: 0.575 <br>
 R^2 on testing data:  0.399 <br>
 This model is insufficient! <br> <br>
-
 Cross validation verifies this. <br>
 mean fold score: -1.11e+17
-
-## Analysis
+![image](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/feature_importances.png)
 ## Discussion
+__How can this model be improved?__
+Further studies: <br>
+Collect more robust demographic data <br>
+Improve feature engineering <br>
+Expand targets <br>
+Add classifiers <br>
+__More data!__ <br>
+__Ideal Use Case:__ <br>
+Provide insight to county-wise HUD sectors to inform funding for  homeless shelters
+
+
+
