@@ -40,10 +40,10 @@ mean fold score: -1.11e+17 <br>
 ## Discussion
 __How can this model be improved?__<br>
 Further studies: <br>
-Collect more robust demographic data <br>
-Improve feature engineering <br>
-Expand targets <br>
-Add classifiers <br>
+* Collect more robust demographic data 
+* Improve feature engineering 
+* Expand targets 
+* Add classifiers 
 __More data!__ <br>
 __Ideal Use Case:__ <br>
 Provide insight to county-wise HUD sectors to inform funding for  homeless shelters
