@@ -35,7 +35,7 @@ R^2 on training data: 0.575 <br>
 R^2 on testing data:  0.399 <br>
 This model is insufficient! <br> <br>
 Cross validation verifies this. <br>
-mean fold score: -1.11e+17
+mean fold score: -1.11e+17 <br>
 ![feature importances](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/feature_importances.png)
 ## Discussion
 __How can this model be improved?__
