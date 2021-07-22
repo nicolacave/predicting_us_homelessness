@@ -26,6 +26,9 @@ Key Homeless Shelter information in the HIC include: <br>
 ## Exploratory Data Analysis
 ![image](/Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/2020_counts.png)
 ## Modeling
+Model(s) used: Multiple Linear Regression <br>
+Process: <br>
+Feature Engineering > Model Training > Model Testing > Hyperparameter Tuning > Kfold Cross Validation(5)
 ## Results
 ## Analysis
 ## Discussion
