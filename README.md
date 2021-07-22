@@ -24,7 +24,7 @@ Key Homeless Shelter information in the HIC include: <br>
 * Type of shelter
 * Number of available beds
 ## Exploratory Data Analysis
-![2020 counts](Users/nicolacave/dsi_galvanize/capstones/capstone2/predicting_us_homelessness/images/2020_counts.png)
+![images/2020_counts.png](images/2020_counts.png)
 ## Modeling
 Model used: Multiple Linear Regression <br>
 __Process:__ <br>
